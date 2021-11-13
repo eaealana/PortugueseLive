@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    background: #D9C1B8;
+}
+
+/*--- HEADER ------*/
+
+#header {
+    background: #735D55;
+    width: 100%;
+    height: 100px;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+
+    position: absolute;
+    margin: 25px;
+
+    background: #735D55;
+    color: black;
+} 
+
+#spam-h1 {
+    color: white;
+    background: #735D55;
+}
+
+#header-home {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    position: absolute; 
+    margin: 30px 0 30px 74%;
+
+    color:black;
+    background: #735D55;
+}
+
+#header-home:hover {
+    transition: 0.3s;
+    color:white;
+}
+
+#header-home:hover::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+
+    background: white;
+    display: block;
+}
+
+
+#header-about {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+    position: absolute;
+    margin: 30px 0 30px 82%;
+
+    color: black;
+    background: #735D55;
+}
+
+#header-about:hover{
+    transition: 0.3s;
+    color: white;
+}
+
+#header-about:hover::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+
+    background: white;
+    display: block;
+}
+
+#header-content {
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    position: absolute;
+    margin: 30px 0 30px 90%;
+
+    color: black;
+    background: #735D55;
+}
+
+#header-content:hover {
+    transition: 0.3s;
+    color: white;
+}
+
+#header-content:hover::after{
+    content: "";
+    width: 100%;
+    height: 2px;
+
+    background: white;
+    display: block;
+}
+
+/*--- SECTION -----*/
+
+section {
+    width: auto;
+    height: 400px;
+
+    position: absolute;
+    margin: 80px 20px 20px 100px;
+}
+
+p{
+    font-size: 40px;
+    font-family:'Trebuchet MS';
+    font-weight: 800;
+}
+
+#spam {
+    color: chocolate;
+
+    font-family:'Trebuchet MS';
+    font-weight: 900;
+}
+
+#img {
+    position: absolute;
+
+    width: 700px;
+    height: 400px;
+    padding-top: 20px;
+    opacity: 80%;
+    border: transparent;
+}
+
+/* ---- FORM - CONTAINER -----*/
+
+#container {
+    width: 450px;
+    height: 500px;
+    border-radius: 5px;
+
+    background-color:#262626;
+
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 1100px;
+    padding-top: 30px;
+}
+
+
+#sing-up{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: chocolate;
+    background: #262626;
+
+    margin: 20px 7px 0 20px;
+}
+
+
+input {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 50px;
+
+    background: transparent;
+    border-color: white;
+    border-top: transparent;
+    border-right: transparent;
+    color: white;
+    
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 60px;
+
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    
+    border-color:chocolate;
+    opacity: 100%;
+
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+
+button:hover {
+    background:	chocolate;
+    transition:all 0.5s;
+    transform: scale(1.1);
+  
+}
+
