@@ -3,7 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    background: #D9C1B8;
+    background: rgb(235, 227, 227);
 }
 
 /*--- HEADER ------*/
@@ -30,49 +30,24 @@ h1 {
     background: #735D55;
 }
 
-#header-home {
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-    position: absolute; 
-    margin: 30px 0 30px 74%;
-
-    color:black;
-    background: #735D55;
-}
-
-#header-home:hover {
-    transition: 0.3s;
-    color:white;
-}
-
-#header-home:hover::after{
-    content: "";
-    width: 100%;
-    height: 2px;
-
-    background: white;
-    display: block;
-}
-
-
-#header-about {
+#header-about-us {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
      
     position: absolute;
-    margin: 30px 0 30px 82%;
+    margin: 30px 0 30px 77%;
 
     color: black;
     background: #735D55;
 }
 
-#header-about:hover{
+#header-about-us:hover{
     transition: 0.3s;
     color: white;
 }
 
-#header-about:hover::after{
+#header-about-us:hover::after{
     content: "";
     width: 100%;
     height: 2px;
@@ -81,23 +56,23 @@ h1 {
     display: block;
 }
 
-#header-content {
+#header-contacts {
     font-size: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     position: absolute;
-    margin: 30px 0 30px 90%;
+    margin: 30px 0 30px 88%;
 
     color: black;
     background: #735D55;
 }
 
-#header-content:hover {
+#header-contacts:hover {
     transition: 0.3s;
     color: white;
 }
 
-#header-content:hover::after{
+#header-contacts:hover::after{
     content: "";
     width: 100%;
     height: 2px;
@@ -113,13 +88,14 @@ section {
     height: 400px;
 
     position: absolute;
-    margin: 80px 20px 20px 100px;
+    margin: 80px 20px 20px 120px;
 }
 
 p{
     font-size: 40px;
     font-family:'Trebuchet MS';
     font-weight: 800;
+    padding-bottom: 25px;
 }
 
 #spam {
@@ -143,7 +119,7 @@ p{
 
 #container {
     width: 450px;
-    height: 500px;
+    height: 520px;
     border-radius: 5px;
 
     background-color:#262626;
@@ -162,7 +138,7 @@ p{
     color: chocolate;
     background: #262626;
 
-    margin: 20px 7px 0 20px;
+    margin: 20px 0 0 20px;
 }
 
 
@@ -212,3 +188,240 @@ button:hover {
   
 }
 
+/*--------------- INDEX-ABOUT ------------------*/
+
+#icone {
+    position: absolute;
+    margin: 30px 0 0 95%;
+
+    background:#735D55;
+}
+
+
+/*-- TITULO ---*/
+ #h1 {
+    font-family: 'Lucida sans';
+    font-size: 45px;
+    text-align: center;
+
+    color: black;
+    background: rgb(235, 227, 227);
+
+    margin: 70px 0 0 170px;
+ }
+
+ #spam1{
+     color: chocolate;
+     background: rgb(235, 227, 227);
+ }
+
+ /*-- PRINCIPAL ----*/
+
+#h2 {
+    color: black;
+
+    font-family:'georgia';
+    font-size: 43px;
+
+    position: absolute;
+    margin: 250px 0 5px 300px;
+}
+
+ #in-home {
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+
+    position: absolute;
+    margin: 310px 0 15px 300px;
+ }
+
+ #img-in-home {
+    width: 510px;
+    height: 270px;
+
+    position: absolute;
+    margin: 200px 0 10px 920px;
+ }
+
+ /*-- SEGUNDA PARTE ---*/
+
+#h2-video {
+    color: black;
+
+    font-family:'georgia';
+    font-size: 40px;
+
+    position: absolute;
+    margin: 580px 0 10px 920px;
+}
+
+ #img-video-called {
+    width: 530px;
+    height: 250px;
+
+    position: absolute; 
+    margin: 530px 850px 0 300px;
+ }
+
+ #video-called {
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    
+    position: absolute;
+    margin: 630px 0 100px 920px;
+}
+/*--- TERCEIRA PARTE ---*/
+#h2-group{
+    font-family:'georgia';
+    font-size: 43px;
+
+    position: absolute;
+    margin: 920px 0 10px 300px;
+}
+
+#h4-group{
+    font-family: 'Trebuchet MS';
+    font-size: 28px;
+    
+    position: absolute;
+    margin: 980px 0 10px 300px;
+}
+
+#img-group {
+    width: 530px;
+    height: 270px;
+    
+    position: absolute;
+    margin: 850px 0 10px 910px;
+}
+
+/*--- QUARTA PARTE---*/
+
+#h2-level {
+    font-family:'georgia';
+    font-size: 38px;
+
+    position: absolute;
+    margin: 1250px 0 10px 920px;
+}
+
+#h4-level {
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
+    
+    position: absolute;
+    margin: 1300px 0 10px 920px;
+}
+
+#img-div5 {
+    width: 530px;
+    height: 250px;
+
+    position: absolute;
+    margin: 1200px 0 10px 300px;
+}
+
+/*--- CONTACTS ----*/
+
+#section-contacts {
+    width: 450px;
+    height: 550px;
+
+    background:	#FFFAF0;
+}
+
+.input-contacts {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 70px;
+
+    background: transparent;
+    border-color:black ;
+    color:black;
+    
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button-contacts{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 90px;
+
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    
+    border-color: black;
+    opacity: 100%;
+
+    font-size: 25px;
+    font-family: sans-serif;
+    
+}
+
+.button-contacts:hover {
+    background:	black;
+    color: white;
+    transition:all 0.5s;
+    transform: scale(1.1);
+  
+}
+/*--  DIV - CONTACTS ----*/
+
+#contact-us {
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+
+    color: black;
+
+    position: absolute;
+    margin: 180px 0 20px 750px;
+}
+
+.facebook {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    margin: 300px 0 0 840px;
+}
+
+.twitter {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    margin: 300px 0 0 920px;
+}
+
+.whatsapp {
+    width: 50px;
+    height: 50px;
+
+    position: absolute; 
+    margin: 300px 0 0 995px;
+}
+
+.linkedin {
+    width: 50px;
+    height: 50px;
+
+    position: absolute; 
+    margin: 300px 0 0 1070px;
+}
+
+.phone {
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    margin: 300px 0 0 1140px;
+}
