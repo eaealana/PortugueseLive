@@ -8,4 +8,4 @@
 
 <img style="padding-top:20px" src="./assets/tela-contacts.png">
 
- <a style="font-size:35px; color:black;" href="https://eaealana.github.io/EnglishLive/">Link😃</a>
+ <a style="font-size:35px; color:white;" href="https://eaealana.github.io/EnglishLive/">Link😃</a>
