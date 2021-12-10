@@ -6,54 +6,115 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link href="style.css" type="text/css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2? família=Red+Hat+Mono:wght@300;400&family=Roboto:ital,wght@0,100;0.400;0.900;1.400&display=swap" rel="stylesheet">
- 
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-  <title>English Live</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;900&display=swap" rel="stylesheet">
+
+  <title>Portuguese Live</title>
 </head>
 <body>
   
+<!-- HEADER -->  
     <header id="header">
-       <nav>
-        <a href="index.html"><h1>english<spam id="spam-h1">live.</spam></h1>  </a>
-           <a href="about-us.html" id="header-about-us">ABOUT US</a>
-           <a href="contacts.html" id="header-contacts">CONTACTS</a>
-       </nav>
+      <nav class="container">
+        <a href="#home" class="logo">portuguese<span>live.</span></a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a href="#home" class="title2">BEGINNING</a></li>
+            <li><a href="#about" class="title2">ABOUT US</a></li>
+            <li><a href="#contacts" class="title2">CONTACTS</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-    <section>
-          <p>Sign up to receive<spam id="spam"> all full classes.</spam><br> It's never been easier to learn English!</p>
-          <img id="img" src="assets/study.png">
+<!-- HOME -->
+
+    <main>
+      <section class="section" id="home">
+        <div class="div-section grid">  
+          <div class="text">
+             <p>Sign up to receive<span class="span-alt"> all full classes.</span> It's never been easier to learn Portuguese!</p>
+             <a class="button" href="#">Entre em contato.</a>
+          </div>  
+
+          <div class="image">
+            <img src="assets/study.png" alt="go study">
+          </div>  
+        </div> 
+      </section>
+   
+<!-- ABOUT -->
+<div class="divider"></div>      
+
+      <section id="about">
+        <div class="container-title">
+          <h2 class="title">WANT TO LEARN PORTUGUESE <span>3X FASTER? </span>LEAVES WITH US!</h2> 
+        </div>      
+    
+        <div class="container1 grid">
+          <div class="container-text">
+            <h2 class="title">100% online and free.</h2>   
+            <h4>We are a 100% online and free community with the best professionals to help you stay fluent.</h4>
+          </div>
+         <img src="assets/em-casa.png">
+        </div> 
+    
+        <div class="container2">
+          <img src="assets/chamada-video.png">
+          <div class="container-text">
+            <h2 class="title">Content every day.</h2>   
+            <h4>We start with only two lessons a week and today we have content every  day, videos called
+           three times a week.</h4>
+          </div>
+        </div>      
+    
+        <div class="container1">
+          <div class="container-text">
+            <h2 class="title">Private or group.</h2>  
+            <h4 class="text">Private or group lessons, you decide.We'll be at your best.</h4>
+          </div>
+          <img src="assets/group.png">
+        </div>
+    
+        <div class="container2">
+          <img src="assets/study-in-home.png">
+          <div class="container-text">
+            <h2 class="title">Start studying at the right level for you!</h2>  
+            <h4 class="text">Once you register with us, take the test and discover your level, and it can be between beginner and post-advanced.</h4>
+          </div>
+        </div>
+      </section>
+
+<!-- CONTACTS -->      
+<div class="divider2"></div>    
+
+    <section id="contacts">
+      <div class="form">
+        <ul>
+          <li><input type="text" name="name" placeholder="Name"></li>
+          <li><input type="date" maxlength="01/01/2003" name="age"></li>
+          <li><input type="email" name="email" placeholder="E-mail"></li>
+          <li><input type="password" name="password" placeholder="Password"></li>
+          <li><input type="password" name="confirm-password" placeholder="Confirm password"></li>
+          <li><button class="button-alt" type="button">Submit</button></li>
+        </ul>
+      </div>
     </section>
 
+    <section>
+       <div class="rede-social"> 
+        <p>Contact us to learn more!</p>
 
+        <a href="http://www.facebook.com" target="_blank"><img class="redes-socias" src="assets/facebook (1).png" alt="facebook"></a>
+        <a href="http://www.twitter.com" target="_blank"><img class="redes-socias" src="assets/twitter (1).png" alt="twitter"></a>
+        <a href="http://www.whatsapp.com" target="_blank"><img class="redes-socias" src="assets/whatsapp (1).png" alt="whatsapp"></a>
+        <a href="http://www.linkedin.com" target="_blank"><img class="redes-socias" src="assets/linkedin.png" alt="linkedin"></a>
+        <a href="#"><img class="redes-socias" src="assets/telephone-symbol-button.png"></a>
+       </div>   
+    </section>     
+  </main>
 
-    <div id="container">
-      <p id="sing-up">Sing up</p>
-      <input type="text" name="username" placeholder="Username">
-<br>
-<br>
-<br>
-      <input type="email" name="email" placeholder="E-mail">
-<br>
-<br>
-<br>
-      <input type="number" name="number" placeholder="Phone number">
-<br>
-<br>
-<br>
-      <input type="password" name="password" placeholder="Create password">
-<br>
-<br>
-<br>
-      <input type="password" name="confirm-password" placeholder="Confirm password">
-<br>
-<br>
-<br>
-      <button type="button" name="submit">Submit</button>
-    </div>
-
+  <script src="main.js"></script>
 </body>
 </html>
